@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cormetech - Meet Scott Pritchard</title>
+    <style>
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        /* Header / Navbar */
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px 50px;
+            background-color: #fff;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            height: 400px;
+        }
+
+        .hero-left {
+            flex: 1;
+            background-color: #a0d2ff;
+            padding: 60px 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero-left h4 {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .hero-left h1 {
+            font-size: 48px;
+            line-height: 1.1;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .hero-left p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .hero-right {
+            flex: 1.2;
+            background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Gambar Placeholder */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Content Section */
+        .content-wrapper {
+            padding: 60px 50px;
+            display: flex;
+            gap: 40px;
+        }
+
+        .share-sidebar {
+            width: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            color: #888;
+        }
+
+        .share-sidebar span {
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .main-article {
+            flex: 1;
+            max-width: 700px;
+        }
+
+        .main-article p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #444;
+            text-align: justify;
+        }
+
+        .main-article h2 {
+            margin: 40px 0 20px;
+            font-size: 24px;
+            color: #000;
+        }
+
+        /* Footer Image Placeholder */
+        .footer-img {
+            width: 100%;
+            height: 250px;
+            background-color: #ddd;
+            margin-top: 30px;
+            border-radius: 8px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero { flex-direction: column; height: auto; }
+            .hero-right { height: 300px; }
+            .content-wrapper { flex-direction: column; }
+            .share-sidebar { flex-direction: row; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Products</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact Us</a>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-left">
+                <h4>News / Media Coverage</h4>
+                <h1>Meet<br>Scott Pritchard</h1>
+                <p>July 16</p>
+            </div>
+            <div class="hero-right">
+                </div>
+        </header>
+
+        <div class="content-wrapper">
+            <aside class="share-sidebar">
+                <span>Share</span>
+                <div style="font-size: 20px;">✉</div>
+                <div style="font-size: 20px;">in</div>
+                <div style="font-size: 20px;">f</div>
+                <div style="font-size: 20px;">𝕏</div>
+            </aside>
+
+            <article class="main-article">
+                <p>
+                    Cormetech, a leading player in the design, manufacture, and full lifecycle management 
+                    of technologies that clean the air of pollutants and carbon dioxide (CO<sub>2</sub>) linked to 
+                    climate change, is delighted to shine a spotlight on one of its exceptional employees. 
+                    Today, we proudly present Scott Pritchard, a dedicated Senior Engineer whose innovative 
+                    spirit and unwavering commitment to environmental sustainability have significantly 
+                    contributed to Cormetech's success.
+                </p>
+
+                <hr style="border: 0; border-top: 1px solid #eee; margin: 40px 0;">
+
+                <h2>Driving Innovation and Clean Air Technologies</h2>
+                
+                <p>
+                    Scott goes beyond technical expertise by actively promoting sustainability and 
+                    eco-conscious practices within Cormetech. Collaborating with cross-functional 
+                    teams, he strives to reduce the company's environmental footprint, ensuring 
+                    that operations align with the mission of protecting the planet.
+                </p>
+
+                <p>
+                    Scott's efforts extend to internal initiatives aimed at minimizing waste, 
+                    conserving energy, and promoting recycling practices throughout the company. 
+                    By fostering a culture of environmental responsibility, Scott inspires his 
+                    colleagues to adopt sustainable practices both inside and outside the workplace.
+                </p>
+
+                <div class="footer-img"></div>
+            </article>
+        </div>
+    </div>
+
+</body>
+</html>
